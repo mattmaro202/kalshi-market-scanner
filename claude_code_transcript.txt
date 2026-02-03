@@ -1,0 +1,16 @@
+  988  curl --tls-max 1.2 -fsSL https://molt.bot/install.sh | bash
+  989  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  990  brew install curl
+  991  /usr/local/opt/curl/bin/curl -fsSL https://molt.bot/install.sh | bash
+  992   export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+  993  curl --version
+  994  curl -fsSL https://molt.bot/install.sh | bash
+  995  export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+  996  curl --version
+  997  curl -fsSL https://molt.bot/install.sh | bash
+  998  curl -k -fsSL https://molt.bot/install.sh | bash
+  999  curl -fsSL http://molt.bot/install.sh | bash
+ 1000  cd ~/Downloads\nchmod +x install.sh\n./install.sh
+ 1001  mkdir kalshi-scanner\ncd kalshi-scanner
+ 1002  export ANTHROPIC_API_KEY=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
+ 1003  npx @anthropic-ai/claude-code
